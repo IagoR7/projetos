@@ -7,4 +7,4 @@ for i in range(10):
 midia = len(numeros)
 soma = sum(numeros)
 media = soma/midia
-print(f'A media dos valores é {media}')
+print(f'A media dos valores é {media:.f}')
