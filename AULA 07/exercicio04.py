@@ -1,8 +1,9 @@
-#Escreva um programa que leia uma lista de 5 nomes e depois exiba esses nomes em
-#ordem alfabética.
-nomes = ['iago','abner','clodoado','satoru','gojo']
+nomes = []
+
+for i in range (5):
+    nome = input("Digite o nome: ")
+    nomes.append(nome)
 
 nomes.sort()
 
 print(nomes)
-
