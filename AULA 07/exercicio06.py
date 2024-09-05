@@ -3,7 +3,11 @@
 
 import random
 
-nomes = ['iago','joao','paulo','erika','gabriel','pedrinho','clodoado','juracy','bruna','luisa']
+nomes = []
+
+for i in range(10):
+    sorte = input('DIGITE UM NOME: ')
+    nomes.append(sorte)
 
 sortudo = random.choice(nomes)
 print(sortudo)
