@@ -1,8 +1,10 @@
-#Crie um programa que leia uma lista de 10 números inteiros e calcule a média dos
-#valores.
+numeros = []
 
-numeros = [5,7,10,6,9,8,1,2,9,3]
+for i in range(10):
+    valor = int(input('Digite um numero:'))
+    numeros.append(valor)
 
+midia = len(numeros)
 soma = sum(numeros)
-media = soma/6
+media = soma/midia
 print(f'A media dos valores é {media}')
