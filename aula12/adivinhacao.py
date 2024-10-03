@@ -1,7 +1,7 @@
 import customtkinter as ctk
 import random
 #-----\\--- Funções ---\\--------\\--------\\-----------\\-----------\\---------\\---
-secret = random.randint(1,10)
+secret = random.randint(1,100)
 def adivinhar():
     
     valor = int(num.get())
