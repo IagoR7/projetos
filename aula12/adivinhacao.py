@@ -1,9 +1,9 @@
 import customtkinter as ctk
 import random
 #-----\\--- Funções ---\\--------\\--------\\-----------\\-----------\\---------\\---
-
+secret = random.randint(1,10)
 def adivinhar():
-    secret = random.randint(1,10)
+    
     valor = int(num.get())
     if valor > secret:
         resultado.configure(text=f'O número secreto é menor!')
