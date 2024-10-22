@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(rgb(161, 193, 193), rgb(144, 83, 83));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: fit-content;
+
+    padding: 20px;
+    border-radius: 20px;
+}
+
+img{
+    height: 250px;
+}
