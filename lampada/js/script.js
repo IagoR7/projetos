@@ -11,6 +11,7 @@ btligar.addEventListener('click',ligar )
 btdesligar.addEventListener('click',desligar)
 
 btligar.addEventListener('dblclick', quebrar)
+breno.addEventListener('dblclick', quebrar)
 
 //função
 
