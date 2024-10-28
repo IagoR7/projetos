@@ -1,5 +1,6 @@
 body{
-    background: linear-gradient(rgb(98, 104, 222), rgb(255, 255, 255));
+    background:url('/imagens/O\ MAIS\ FORTE.jpg');
+    background-size: cover;
     height: 100vh;
     display: flex;
     align-items: center;
