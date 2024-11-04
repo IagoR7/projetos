@@ -1,0 +1,44 @@
+body{height: 100vh;
+    background:url(../imagens/back.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.216);
+
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow:3px 3px 15px black;
+}
+
+img{
+    width: 829px;
+    height: 500px;
+    
+}
+
+.central .botoes button{
+    transition: 0.7s;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 35px;
+    width: 100px;
+    background: rgb(5, 150, 5);
+    border:none;
+}
+
+.central .botoes button:hover{
+    background: black;
+    color: rgb(5, 150, 5);
+    transform: translateY(-2px) ;
+    
+}
+
+.central .botoes{
+    margin-top: 10px;
+}
