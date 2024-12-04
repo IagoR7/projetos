@@ -1,0 +1,45 @@
+body{
+    background: black;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.fundo{
+    min-width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 60%;
+}
+
+.central{
+    width: fit-content;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.central input{
+    background: black;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+
+}
+.central button{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
