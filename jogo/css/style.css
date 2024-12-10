@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.game-board{
+    width: 100%;
+    height: 500px;
+    border-bottom: 15px solid #12be0c;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#d67f0d, #e0f6ff);
+}
+
+.charizard{
+    position: absolute;
+    bottom: 0;
+    width: 150px;
+    animation: animacaoC 2s infinite linear;
+
+}
+
+.shadow{
+    width: 110px;
+    position: absolute;
+    bottom: -25px;
+
+
+
+}
+
+.jump
+{
+    animation: jump 500ms ease-out ;
+}
+
+.nuvem{
+    position: absolute;
+    width: 550px;
+    animation: nuvemA 10s infinite linear;
+}
+
+
+
+@keyframes animacaoC{
+    from  {
+        right: -150px;
+    }
+    to  {
+        right: 100%;
+    }
+}
+
+@keyframes jump{
+    0%{
+        bottom: -25px;
+    }
+    40%{
+        bottom: 85px
+    }
+    50%{
+        bottom: 85px;
+    }
+    60%{
+        bottom: 85px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+@keyframes nuvemA {
+    from  {
+        right: 0%;
+    }
+    to  {
+        right: 100%;
+    }
+    
+}
