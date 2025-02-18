@@ -2,18 +2,18 @@ recebimento1p =[]
 recebimento2p = []
 recebimento1r = []
 recebimento2r =[]
-meses = 1
+meses = int(input("Digite a quantidade de meses: "))
 for i in range(meses):
-    valor = float(input(f"Digite a primeira previsão: "))
+    valor = float(input(f"Digite a {i+1}º previsão: "))
     recebimento1p.append(valor)
 for i in range(meses):
-    valor = float(input(f"Digite a segunda previsão: "))
+    valor = float(input(f"Digite a {i+1}º previsão: "))
     recebimento2p.append(valor)
 for i in range(meses):
-    valor = float(input(f"Digite o primeiro pagamento de entrada realizado: "))
+    valor = float(input(f"Digite o {i+1}º pagamento de entrada realizado: "))
     recebimento1r.append(valor)
 for i in range(meses):
-    valor = float(input(f"Digite o segundo pagamento de entrada realizado: "))
+    valor = float(input(f"Digite o {i+1}º pagamento de entrada realizado: "))
     recebimento2r.append(valor)
 
 tentp = recebimento1p[0] + recebimento2p[0]
