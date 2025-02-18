@@ -36,3 +36,19 @@ d2 = cpa*c2
 d3 = cpa*c3
 
 print(f'Os resultados da fileira D são: {d1:.2f}, {d2:.2f}, {d3:.2f}')
+
+#Fileira E
+
+e1 = cc*b1
+e2 = cc*b2
+e3 = cc*b3
+
+print(f'Os resultados da fileira E são: {c1:.2f}, {c2:.2f}, {c3:.2f}')
+
+#Fileira F
+
+f1 = d1+e1
+f2 = d2+e2
+f3 = d3+e3
+
+print(f'Os resultados da fileira F são: {f1:.2f}, {f2:.2f}, {f3:.2f}')
