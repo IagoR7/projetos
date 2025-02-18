@@ -1,34 +1,34 @@
-forne = 20.000
-fpag = 40.000
-aluguel = 5.000
-luz = 1.000
-fgts = 5.000
-
-tudo = forne + fpag + aluguel + luz + fgts
-
-
 recebimento1p =[]
 recebimento2p = []
 recebimento1r = []
 recebimento2r =[]
-for i in range(1):
-    valor = int(input(f"Digite a primeira revisão: "))
+meses = 1
+for i in range(meses):
+    valor = float(input(f"Digite a primeira previsão: "))
     recebimento1p.append(valor)
-for i in range(1):
-    valor = int(input(f"Digite a segunda revisão: "))
+for i in range(meses):
+    valor = float(input(f"Digite a segunda previsão: "))
     recebimento2p.append(valor)
-for i in range(1):
-    valor = int(input(f"Digite o primeiro recebimento: "))
+for i in range(meses):
+    valor = float(input(f"Digite o primeiro pagamento de entrada realizado: "))
     recebimento1r.append(valor)
-for i in range(1):
-    valor = int(input(f"Digite o segundo recebimento: "))
+for i in range(meses):
+    valor = float(input(f"Digite o segundo pagamento de entrada realizado: "))
     recebimento2r.append(valor)
 
-tent = recebimento1p[0] + recebimento2p[0], recebimento1r[0] + recebimento2r[0]
-print (f'total de entradas de previsão e realizado é:  {tent}')
-forne = float(input("Digite o pamento total com o fornedor"))
-fpag = float(input("Digite o pamento total com o fornedor"))
-aluguel = float(input("Digite o pamento total com o fornedor"))
-luz = float(input("Digite o pamento total com o fornedor"))
-fgts = float(input("Digite o pamento total com o fornedor"))
+tentp = recebimento1p[0] + recebimento2p[0]
+tentr = recebimento1r[0] + recebimento2r[0]
+print (f'total de entradas de previsão é {tentp} e de realizados é {tentr}')
+forne = float(input("Digite o pamento total com o fornedor: "))
+fpag = float(input("Digite o pamento total com a folha do pagamento: "))
+aluguel = float(input("Digite o pamento total com o aluguel: "))
+luz = float(input("Digite o pamento total com a luz: "))
+fgts = float(input("Digite o pamento total com o fgts: "))
+
+tudo = forne + fpag + aluguel + luz + fgts
+
+totalp = tentp - tudo
+totalr = tentr - tudo
+
+print(f'O saldo final da previsão é {totalp} e o saldo final realizado é {totalr}')
 
